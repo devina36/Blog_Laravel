@@ -1,0 +1,85 @@
+:root {
+    --bg-card: brown;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.form-registration .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-registration input {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.form-registration input[id="password"] {
+    margin-bottom: 10px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.category-card {
+    position: absolute;
+    padding: 2% 3%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.category-card-text {
+    text-decoration: none;
+    color: #fff;
+}
+
+.categories-card-text {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    padding: 4%;
+}
+
+.page-link {
+    color: black !important;
+}
+
+.page-item.active .page-link {
+    color: #fff !important;
+    background-color: black !important;
+    border-color: black !important;
+}
+
+.img-me {
+    background-color: var(--bg-card);
+    border-radius: 100%;
+}
+
+.brand {
+    font-family: "Lobster", cursive;
+}
+
+.brand h1 {
+    font-size: 9vw;
+}
+
+.bg-card {
+    background: var(--bg-card);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    background-size: contain;
+}
